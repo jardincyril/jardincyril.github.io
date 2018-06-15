@@ -1,0 +1,207 @@
+.rec{
+  width: 100%;
+  height: 250px;
+  background-color:rgba(237,168,99,0.3);
+  box-shadow: 0.5px 0.5px #54c409, 0.5em 0 0.7em #54c409, -0.5em 0 0.7em #54c409;
+  color:black;
+}
+.text{
+  text-align:center;
+  color:black;
+  font-size:40px;
+}
+.rec2{
+  width: 100%;
+  height: 300px;
+  background-color:rgba(237,168,99,0.3);
+  border-top-left-radius : 150px 100px;
+  border-bottom-right-radius: 150px 100px;
+  box-shadow: 0.5px 0.5px #54c409, 0.5em 0 0.7em #54c409, -0.5em 0 0.7em #54c409;
+  text-align: center;
+  font-size:25px;
+  color: black;
+}
+.text2{
+  text-align:center;
+  color:black;
+  border-radius: 20px;
+  text-align:center;
+  padding-top:25% 25%;
+  height: 30px;
+  width: 100%;
+  font-size:25px;
+  box-shadow: 0.5px 0.5px #54c409, 0.5em 0 0.7em #54c409, -0.5em 0 0.7em #54c409;
+}
+body{
+  background-image:url(https://sorenette.files.wordpress.com/2017/04/zelda-breath-of-the-wild-artwork.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.p{
+  color:black;
+  border-radius: 20px;
+  text-align:center;
+  box-shadow: 0.5px 0.5px #54c409, 0.5em 0 0.7em #54c409, -0.5em 0 0.7em #54c409;
+}
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color:rgba(0,0,0,0.45) ;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 40%;
+}
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color:rgba(0,0,0,0.45);
+  border: 4px solid #551a8b;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.left {
+  left: -25%;
+}
+.right {
+  left: +25%;
+}
+}
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+.right::after {
+  left: -16px;
+}
+.content {
+  padding: 20px 30px;
+  background-color:rgba(237,168,99,0.3);
+  position: relative;
+  border-radius: 6px;
+}
+@media screen and (max-width: 600px) {
+  .timeline::after {
+    left:-60px;
+  }
+  .container {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 25px;
+  }
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  .left::after, .right::after {
+    left: 15px;
+  }
+  .right {
+    left: 0%;
+  }
+}
+  .rec3{
+    width: 100%;
+    height:320px;
+    background-color:rgba(237,168,99,0.3);
+    border-top-left-radius : 150px 100px;
+    border-bottom-right-radius: 150px 100px;
+    box-shadow: 0.5px 0.5px #54c409, 0.5em 0 0.7em #54c409, -0.5em 0 0.7em #54c409;
+    text-align: center;
+    font-size: 20px;
+    color:black;
+  }
+  .rec4{
+    width: 100%;
+    height: 280px;
+    background-color:rgba(237,168,99,0.3);
+    border-top-left-radius : 150px 100px;
+    border-bottom-right-radius: 150px 100px;
+    box-shadow: 0.5px 0.5px #54c409, 0.5em 0 0.7em #54c409, -0.5em 0 0.7em #54c409;
+    text-align: center;
+    font-size: 20px;
+    color:black;
+  }
+#gif{
+  background: linear-gradient(
+rgba(255,255,255,0.45),
+rgba(255,255,255,0.45)
+),url(https://78.media.tumblr.com/6f28a537b84b750062955249b09f0e6f/tumblr_o7r1mvvnFK1tqsbtgo1_500.gif);
+background-size:cover;
+background-repeat:no-repeat;
+color:black;
+height: 200px;
+text-align: center;
+}
+#gif2{
+  background: linear-gradient(
+  rgba(255, 255, 255, 0.3),
+  rgba(255,255,255, 0.3)
+  ),url(https://i.skyrock.net/4354/86724354/pics/3139939608_1_4_2pQ8YA6T.gif);
+  background-size:cover;
+  background-repeat:no-repeat;
+ color:black;
+ height:200px;
+ text-align: center;
+}
+#gif3{
+  background: linear-gradient(
+ rgba(255, 255, 255, 0.2),
+ rgba(255,255,255, 0.2)
+ ),url(http://img.filmsactu.net/datas/films/w/a/wayne-s-world/n/wayne-s-world-gif-58877b7f421e6.gif);
+ background-size:cover;
+ background-repeat:no-repeat;
+ color: black;
+ height: 200px;
+ text-align: center;
+}
+#gif4{
+  background: linear-gradient(
+ rgba(255, 255, 255, 0.3),
+ rgba(255,255,255, 0.3)
+ ),url(https://mundopymes.org/wp-content/uploads/2017/03/tecnologia-informacion-696x341.jpg);
+ background-size:cover;
+ background-repeat:no-repeat;
+ color: black;
+ height: 200px;
+ text-align: center;
+}
+#jpg{
+ color:black;
+}
+#di{
+  font-size: 30px;
+}
