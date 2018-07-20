@@ -1,20 +1,44 @@
 <!DOCTYPE html>
-<html lang="fr" dir="ltr">
+<html lang="fr" dir="ltr" >
 <head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/jquery-3.2.1.js"></script>
   <title>mon cv</title>
 </head>
 <body>
-  <div class="rec"><br>
+  <!--banniere-->
+  <div class="rec">
     <h1 class="text">Developpeur Web</h1>
     <p class="text"> Jardin Cyril</p>
-  </div><br>
+  </div>
+  <!--navbar de navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" href="#Contact">Contact</a>
+        <a class="nav-link active" href="#Presentation">Presentation</a>
+        <a class="nav-link active" href="#Formation">Formation</a>
+        <a class="nav-link active" href="#Competence">Competence</a>
+        <a class="nav-link active" href="#Experiences">Experiences</a>
+        <a class="nav-link active" href="#Hobbies">Hobbies</a>
+      </div>
+    </div>
+  </nav>
+  <!--container-->
   <div class="container-fluid">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-xs-12">
-        <h2 class="p">contact</h2>
+        <!--contacte-->
+        <h2 class="p" id="Contact">Contact</h2>
         <div class="rec4">
           <p>Jardin Cyril</p>
           <p>cyrilroc60@hotmail.fr</p>
@@ -24,112 +48,136 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-xs-12">
-        <h2 class="p">presentation</h2>
-        <div class="rec3"><br>
+        <!--presentation-->
+        <h2 class="p" id="Presentation">Presentation</h2>
+        <div class="rec3">
           <p>
-  Je me present je m'appele cyril jardin j'ai 18ans je fait une formation en developpeur web, jai un cap en mecanique parcs et jardins et plus tard je veux faire developpeur ou programmeur de jeux video.
+            Je me présente je m'appelle Cyril jardin j'ai 18ans je fais une formation de développeur web, j'ai un cap en mécanique parcs et jardins et plus tard je veux faire développeur ou programmeur de jeux vidéo.
           </p>
-        </div></br>
-      </div>
-    </div>
-    <h2 class="text2">Formation</h2>
-    <div class="rec2">
-      <p>2018:</p>
-      <p>formation developpeur web a E2N</p>
-      <p>2017:</p>
-      <p>CAP en Mecanique parcs et jardins</p>
-    </div><br>
-    <h2 class="text2 offset-2 col-8 offset-2">Competence</h2>
-    <div class="timeline offset-1 col-9 offset-2">
-      <div class="container left">
-        <div id="jpg" class="content">
-          <h2>html</h2>
-          <p id="di">4/5</p>
         </div>
       </div>
-      <div class="container right">
-        <div id="jpg" class="content">
-          <h2>css</h2>
-          <p id="di">4/5</p>
+      <!--Formation-->
+      <div class="col-12">
+        <h2 class="text2" id="Formation">Formation</h2>
+        <div class="rec2">
+          <p>2018:</p>
+          <p>formation developpeur web a E2N</p>
+          <p>2017:</p>
+          <p>CAP en Mecanique parcs et jardins</p>
         </div>
       </div>
-      <div class="container left">
-        <div id="jpg" class="content">
-          <h2>github</h2>
-          <p id="di">3/5</p>
+      <!--timeline-->
+      <h2 class="text2 offset-1 col-10 offset-1" id="Competence">Competence</h2>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/img/HTML5.png">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">html</h5>
+          <p class="card-text">4/5</p>
         </div>
       </div>
-      <div class="container right">
-        <div id="jpg" class="content">
-          <h2>atom</h2>
-          <p id="di">3/5</p>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/img/css.png">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">css</h5>
+          <p class="card-text">4/5</p>
         </div>
       </div>
-      <div class="container left">
-        <div id="jpg" class="content">
-          <h2>nano</h2>
-          <p id="di">3/5</p>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/img/js.png">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">JavaScript</h5>
+          <p class="card-text">2,5/5</p>
         </div>
       </div>
-      <div class="container right">
-        <div id="jpg" class="content">
-          <h2>bootstrap</h2>
-          <p id="di">2/5</p>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/img/jquery.png">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">Jquery</h5>
+          <p class="card-text">2,5/5</p>
         </div>
       </div>
-      <div class="container left">
-        <div id="jpg" class="content">
-          <h2>ligne de command</h2>
-          <p id="di">3/5</p>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/img/Angular.png">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">Angularjs</h5>
+          <p class="card-text">2,5/5</p>
         </div>
       </div>
-      <div class="container right">
-        <div id="jpg" class="content">
-          <h2>javascript</h2>
-          <p id="di">2,5/5</p>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/img/php.png">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">php</h5>
+          <p class="card-text">0/5</p>
         </div>
       </div>
-      <div class="container left">
-        <div id="jpg" class="content">
-          <h2>jquery</h2>
-          <p id="di">2,5/5</p>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/img/bootstrap.png">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">bootstrap</h5>
+          <p class="card-text">3/5</p>
         </div>
       </div>
-      <div class="container right">
-        <div id="jpg" class="content">
-          <h2>php</h2>
-          <p id="di">0/5</p>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/img/atom.png">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">atom</h5>
+          <p class="card-text">4/5</p>
         </div>
       </div>
-    </div>
-    <h2 class="text2">Experiences</h2>
-    <div class="rec2">
-      <p></p>
-    </div></br>
-    <h2 class="text2 offset-2 col-8 offset-2">hobbies</h2>
-    <div class="timeline offset-1 col-9 offset-2">
-      <div class="container left">
-        <div id="gif" class="content">
-          <h2>jeux video</h2>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/img/canvas.png">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">canvas</h5>
+          <p class="card-text">0/5</p>
         </div>
       </div>
-      <div class="container right">
-        <div  id="gif2" class="content">
-          <h2>manga</h2>
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="assets/img/ubuntu.png">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">ligne de commande</h5>
+          <p class="card-text">3/5</p>
         </div>
       </div>
-      <div class="container left">
-        <div id="gif3" class="content">
-          <h2>cinema</h2>
+      <!--Experiences-->
+      <div class="col-12">
+        <h2 class="text2" id="Experiences">Experiences</h2>
+        <div class="rec5">
+          <ul>
+            <li>1 stage de deux semaine en librairie</li>
+            <li>1 stage de deux semaine en paysagiste</li>
+            <li>3 stage en mecanique parcs et jardins</li>
+          </ul>
         </div>
       </div>
-      <div class="container right">
-        <div id="gif4" class="content">
-          <h2>informatique</h2>
+      <!--timeline hobbies-->
+      <h2 id="Hobbies" class="text2">Hobbies</h2>
+      <div class="card" style="width: 30rem;">
+        <img class="card-img-top" id="gif">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">Jeux Video</h5>
+        </div>
+      </div>
+      <div class="card" style="width: 30rem;">
+        <img class="card-img-top" id="gif2">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">Manga</h5>
+        </div>
+      </div>
+      <div class="card" style="width: 30rem;">
+        <img class="card-img-top" id="gif3">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">cinema</h5>
+        </div>
+      </div>
+      <div class="card" style="width: 30rem;">
+        <img class="card-img-top" id="gif4">
+        <div class="card-body">
+          <h5 id="hob" class="card-title">Informatique</h5>
         </div>
       </div>
     </div>
   </div>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <!--button pour remonter-->
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
 </html>
