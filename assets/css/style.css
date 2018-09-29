@@ -27,7 +27,7 @@
 }
 /*text conctact , social et Langues*/
 .p{
-  color:black;
+  color:white;
   border-radius: 20px;
   text-align:center;
   margin-top: 30px;
@@ -78,7 +78,7 @@
 /*texte de formation, competence, experiences et hobbies*/
 .text2{
   text-align:center;
-  color:black;
+  color:white;
   border-radius: 20px;
   text-align:center;
   padding-top:25% 25%;
@@ -90,9 +90,9 @@
 /*image du corp*/
 body{
   background: linear-gradient(
-  rgba(255,255,255,0.3),
-  rgba(255,255,255,0.3)
-  ),url(https://sorenette.files.wordpress.com/2017/04/zelda-breath-of-the-wild-artwork.jpg);
+  rgba(0,0,0,0.3),
+  rgba(0,0,0,0.3)
+  ),url(https://images.wallpaperscraft.com/image/background_sky_point_light_83482_1920x1080.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -279,7 +279,9 @@ a{
   background-color:rgba(199,169,189,0.3);
   text-align: center;
   font-size: 30px;
+  color: black;
 }
 #hob{
+  color:black;
   font-size: 30px;
 }
